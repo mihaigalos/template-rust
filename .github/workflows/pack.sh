@@ -57,8 +57,8 @@ make_deb() {
     local homepage
     local maintainer
 
-    homepage="https://github.com/{{username}}/{{project-name}}"
-    maintainer={{authors}}
+    homepage="https://github.com/{{github_user}}/{{project-name}}"
+    maintainer="{{authors}}"
     copyright_years="2023 - 3023"
 
     case $TARGET in
