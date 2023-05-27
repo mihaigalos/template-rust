@@ -1,4 +1,4 @@
-# aim
+# {{project-name}}
 [![CI](https://github.com/{{github_user}}/{{project-name}}/actions/workflows/ci.yaml/badge.svg)](https://github.com/{{github_user}}/{{project-name}}/actions/workflows/ci.yaml)
 [![CD](https://github.com/{{github_user}}/{{project-name}}/actions/workflows/cd.yaml/badge.svg)](https://github.com/{{github_user}}/{{project-name}}/actions/workflows/cd.yaml)
 [![Security Audit](https://github.com/{{github_user}}/{{project-name}}/actions/workflows/audit.yaml/badge.svg)](https://github.com/{{github_user}}/{{project-name}}/actions/workflows/audit.yaml)
