@@ -1,0 +1,2 @@
+[placeholders]
+github_user = { type = "string", prompt = "Please input GitHub user: ", default = "mihaigalos" }
