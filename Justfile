@@ -3,7 +3,7 @@ _default:
 
 tool := "{{project-name}}"
 docker_container_registry := "ghcr.io"
-docker_user_repo := "mihaigalos"
+docker_user_repo := "{{github_user}}"
 docker_image_version := `cat Cargo.toml | grep ^version | cut -d'=' -f 2 | sed -e 's/"//g' -e 's/ //g'`
 docker_image := docker_container_registry + "/" + docker_user_repo + "/" + tool + ":" + docker_image_version
 docker_image_dockerhub := docker_user_repo + "/" + tool + ":" + docker_image_version
